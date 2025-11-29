@@ -1,0 +1,15 @@
+// components/BreadcrumbSeparator.tsx
+import React from 'react';
+import Breadcrumb from './Breadcrumb';
+
+interface Props {}
+
+const BreadcrumbSeparator = ({ children }: Props) => {
+  return (
+    <li className="breadcrumb-item active">
+      <i className="fas fa-angle-right" />
+    </li>
+  );
+};
+
+export default BreadcrumbSeparator;

@@ -1,3 +1,4 @@
+// components/Breadcrumb.tsx
 import React from 'react';
 
 interface Props {
