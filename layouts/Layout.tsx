@@ -3,7 +3,7 @@ import Header from './components/Header';
 
 interface Props {}
 
-const Layout: React.FC<Props> = () => {
+const Layout = ({ children }: { children: React.ReactNode }) => {
   return (
     <div>
       <Header />

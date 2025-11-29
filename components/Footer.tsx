@@ -4,7 +4,7 @@ interface Props {
   children: React.ReactNode;
 }
 
-const Footer: React.FC<Props> = ({ children }) => {
+const Footer = ({ children }: Props) => {
   return (
     <footer>
       {children}

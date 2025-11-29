@@ -3,7 +3,7 @@ import Header from './components/Header';
 
 interface Props {}
 
-const IndexPage: React.FC<Props> = () => {
+const IndexPage = () => {
   return (
     <div>
       <Header />

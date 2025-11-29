@@ -4,7 +4,7 @@ interface Props {
   children: React.ReactNode;
 }
 
-const Header: React.FC<Props> = ({ children }) => {
+const Header = ({ children }: Props) => {
   return (
     <header>
       {children}
