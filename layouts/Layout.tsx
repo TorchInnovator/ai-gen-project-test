@@ -1,17 +1,15 @@
 import React from 'react';
-import Header from './components/Header';
+import { Breadcrumb } from '../components/Breadcrumb';
 
-interface Props {}
-
-const Layout = ({ children }: { children: React.ReactNode }) => {
+const Layout = () => {
   return (
     <div>
-      <Header />
-      {/* 布局內容 */}
-      <main>
-        <h1>主題</h1>
-        <p>描述</p>
-      </main>
+      <Breadcrumb>
+        <BreadcrumbItem>Home</BreadcrumbItem>
+        <BreadcrumbItem>Features</BreadcrumbItem>
+        <BreadcrumbSeparator />
+        <BreadcrumbItem>Active Item</BreadcrumbItem>
+      </Breadcrumb>
     </div>
   );
 };
