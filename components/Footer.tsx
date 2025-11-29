@@ -10,6 +10,8 @@ const Footer: React.FC<Props> = ({ children }) => {
       {children}
       {/* 新增的功能 */}
       <p>Copyright 2023</p>
+      {/* TODO 6：新增版權信息顯示 */}
+      <p>&copy; 2023 {process.env.REACT_APP_COMPANY_NAME}</p>
     </footer>
   );
 };
