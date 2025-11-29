@@ -1,17 +1,7 @@
-import React from 'react';
+import { Page } from '@playwright/test';
 
-interface Props {
-  children: React.ReactNode;
+interface HomePage {
+  page: Page;
 }
 
-const Breadcrumb = ({ children }: Props) => {
-  return (
-    <nav aria-label="breadcrumb">
-      <ol className="breadcrumb">
-        {children}
-      </ol>
-    </nav>
-  );
-};
-
-export default Breadcrumb;
+export default HomePage;
