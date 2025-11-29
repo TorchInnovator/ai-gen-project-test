@@ -8,6 +8,10 @@ const Layout: React.FC<Props> = () => {
     <div>
       <Header />
       {/* 布局內容 */}
+      <main>
+        <h1>主題</h1>
+        <p>描述</p>
+      </main>
     </div>
   );
 };

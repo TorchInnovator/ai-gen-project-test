@@ -8,6 +8,13 @@ const Header: React.FC<Props> = ({ children }) => {
   return (
     <header>
       {children}
+      {/* 新增的功能 */}
+      <nav>
+        <ul>
+          <li><a href="#">首頁</a></li>
+          <li><a href="#">關於我們</a></li>
+        </ul>
+      </nav>
     </header>
   );
 };
