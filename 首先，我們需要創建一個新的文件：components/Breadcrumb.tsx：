@@ -1,0 +1,15 @@
+import React from 'react';
+
+interface Props {
+  children: React.ReactNode;
+}
+
+const Breadcrumb = ({ children }: Props) => {
+  return (
+    <nav>
+      {children}
+    </nav>
+  );
+};
+
+export default Breadcrumb;
