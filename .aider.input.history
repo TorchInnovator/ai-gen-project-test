@@ -1,0 +1,117 @@
+
+# 2025-11-29 23:09:16.848850
++期望的文件結構如下（嚴格遵守）：
++
++⚠️ 文件位置規則（最高優先級）：
++- 所有檔案必須放在項目根目錄，不要創建 src/ 等子目錄
++- 配置文件（package.json, tsconfig.json 等）必須在項目根目錄
++- 如果骨架中顯示 src/ 路徑，請忽略 src/ 前綴，直接使用文件名
++
++文件結構：
++components/Header.tsx          # 全局導航欄                                              
++pages/index.tsx               # 首頁，包含 Hero + FeatureGrid                            
++utils/helpers.ts              # 工具函數                                                 
++components/Footer.tsx         # 页脚                                                     
++layouts/Layout.tsx            # 布局                                                     
++styles/global.css             # 全局樣式                                                 
++
++---
++You are an expert full-stack developer. Build a complete, production-ready 通用項目 application from scratch following SPEC.md.
++
++CRITICAL RULES:
++1. Write REAL code files, NOT explanations
++2. Follow TODO order STRICTLY: TODO 1 → TODO 2 → ... → TODO 15
++3. After EACH TODO: Run tests/build, fix errors, then continue
++4. Use the exact tech stack specified in SPEC.md
++5. Write clean, maintainable code with proper types
++6. Add error handling and edge cases
++7. Make it responsive (mobile-first)
++8. Follow SPEC.md requirements EXACTLY
++
++FILE LOCATION RULES:
++⚠️  所有檔案必須放在項目根目錄，不要創建 src/ 等子目錄。
++⚠️  配置文件（package.json, tsconfig.json 等）必須在項目根目錄。
++
++START: Begin with TODO 1. Create all necessary files following the directory structure rules above. Proceed step by step.
++
++⚠️ 重要注意事項（基於歷史錯誤分析）：
++- 遵循項目規範和代碼風格\n- 確保代碼可運行且無錯誤\n- 添加適當的錯誤處理\n
++請特別注意避免上述常見錯誤。
+
+# 2025-11-29 23:20:15.444947
++期望的文件結構如下（嚴格遵守）：
++
++⚠️ 文件位置規則（最高優先級）：
++- 所有檔案必須放在項目根目錄，不要創建 src/ 等子目錄
++- 配置文件（package.json, tsconfig.json 等）必須在項目根目錄
++- 如果骨架中顯示 src/ 路徑，請忽略 src/ 前綴，直接使用文件名
++
++文件結構：
++components/Header.tsx          # 全局導航欄                                              
++pages/index.tsx               # 首頁，包含 Hero + FeatureGrid                            
++utils/helpers.ts              # 工具函數                                                 
++components/Footer.tsx         # 页脚                                                     
++layouts/Layout.tsx            # 布局                                                     
++styles/global.css             # 全局樣式                                                 
++
++---
++You are an expert full-stack developer. Build a complete, production-ready 通用項目 application from scratch following SPEC.md.
++
++CRITICAL RULES:
++1. Write REAL code files, NOT explanations
++2. Follow TODO order STRICTLY: TODO 1 → TODO 2 → ... → TODO 15
++3. After EACH TODO: Run tests/build, fix errors, then continue
++4. Use the exact tech stack specified in SPEC.md
++5. Write clean, maintainable code with proper types
++6. Add error handling and edge cases
++7. Make it responsive (mobile-first)
++8. Follow SPEC.md requirements EXACTLY
++
++FILE LOCATION RULES:
++⚠️  所有檔案必須放在項目根目錄，不要創建 src/ 等子目錄。
++⚠️  配置文件（package.json, tsconfig.json 等）必須在項目根目錄。
++
++START: Begin with TODO 1. Create all necessary files following the directory structure rules above. Proceed step by step.
++
++⚠️ 重要注意事項（基於歷史錯誤分析）：
++- 遵循項目規範和代碼風格\n- 確保代碼可運行且無錯誤\n- 添加適當的錯誤處理\n
++請特別注意避免上述常見錯誤。
+
+# 2025-11-29 23:22:38.562928
++期望的文件結構如下（嚴格遵守）：
++
++⚠️ 文件位置規則（最高優先級）：
++- 所有檔案必須放在項目根目錄，不要創建 src/ 等子目錄
++- 配置文件（package.json, tsconfig.json 等）必須在項目根目錄
++- 如果骨架中顯示 src/ 路徑，請忽略 src/ 前綴，直接使用文件名
++
++文件結構：
++components/Header.tsx          # 全局導航欄                                              
++pages/index.tsx               # 首頁，包含 Hero + FeatureGrid                            
++utils/helpers.ts              # 工具函數                                                 
++components/Footer.tsx         # 页脚                                                     
++layouts/Layout.tsx            # 布局                                                     
++styles/global.css             # 全局樣式                                                 
++
++---
++You are an expert full-stack developer. Build a complete, production-ready 通用項目 application from scratch following SPEC.md.
++
++CRITICAL RULES:
++1. Write REAL code files, NOT explanations
++2. Follow TODO order STRICTLY: TODO 1 → TODO 2 → ... → TODO 15
++3. After EACH TODO: Run tests/build, fix errors, then continue
++4. Use the exact tech stack specified in SPEC.md
++5. Write clean, maintainable code with proper types
++6. Add error handling and edge cases
++7. Make it responsive (mobile-first)
++8. Follow SPEC.md requirements EXACTLY
++
++FILE LOCATION RULES:
++⚠️  所有檔案必須放在項目根目錄，不要創建 src/ 等子目錄。
++⚠️  配置文件（package.json, tsconfig.json 等）必須在項目根目錄。
++
++START: Begin with TODO 1. Create all necessary files following the directory structure rules above. Proceed step by step.
++
++⚠️ 重要注意事項（基於歷史錯誤分析）：
++- 遵循項目規範和代碼風格\n- 確保代碼可運行且無錯誤\n- 添加適當的錯誤處理\n
++請特別注意避免上述常見錯誤。

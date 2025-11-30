@@ -1,0 +1,822 @@
+==========================================
+JarvisCoder v3.0 - 開發日誌
+項目: my-project
+項目路徑: /d/github/ai-project/ai-gen-project-test/projects/my-project
+Run ID: 20251130-012430
+開始時間: 2025-11-30 01:24:30
+日誌文件: /d/github/ai-project/ai-gen-project-test/projects/logs/my-project/20251130-012430.log
+日誌目錄: /d/github/ai-project/ai-gen-project-test/projects/logs/my-project
+PROJECTS_DIR: /d/github/ai-project/ai-gen-project-test/projects
+LOGS_DIR: /d/github/ai-project/ai-gen-project-test/projects/logs
+==========================================
+
+[01:24:31] [VERIFY] 日誌寫入驗證測試
+[01:24:31] ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+[01:24:31] 🚀 JarvisCoder v3.0
+[01:24:31] 📅 發布日期: 2025-01-27
+[01:24:31] ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+[01:24:32] ℹ️  ✨ v3.0 新功能：
+[01:24:32] ℹ️    • 智能驗證策略（快速驗證 + 完整驗證）
+[01:24:32] ℹ️    • 技術棧檢測緩存（24小時有效）
+[01:24:32] ℹ️    • 統一超時機制（後台進程 + kill，macOS 兼容）
+[01:24:32] ℹ️    • 版本追蹤與優化差異記錄
+[01:24:32] ℹ️    • Token 優化（SPEC.md 精簡提取、文件掃描範圍限制、動態 Map-Tokens）
+[01:24:33] ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+[01:24:33] 🔍 執行前置檢查...
+[01:24:33] ✅ 前置檢查通過
+[01:24:34] 使用現有項目目錄: /d/github/ai-project/ai-gen-project-test/projects/my-project
+[01:24:34] 🔍 檢測項目狀態...
+[01:24:34] 📦 檢測到：現有項目（已有代碼）
+[01:24:34] 🔄 自動切換到增量開發模式
+[01:24:34] 📊 分析現有項目結構...
+[01:24:35] ℹ️  [ANALYSIS] 項目分析完成，報告已保存到: /d/github/ai-project/ai-gen-project-test/projects/my-project/.jarviscoder_analysis.txt
+[2025-11-30 01:24:35] [INFO] [ANALYSIS] 項目分析完成，報告已保存到: /d/github/ai-project/ai-gen-project-test/projects/my-project/.jarviscoder_analysis.txt
+[01:24:35] 💡 增量模式：將在現有代碼基礎上添加新功能，不會覆蓋現有文件
+[01:24:35] ⚠️  檢測到 SPEC.md 仍包含模板佔位符，可能尚未編輯
+[01:24:35] ⚠️  建議先編輯 SPEC.md 文件，填寫項目詳情和 TODO 列表
+[01:24:45] ⚠️  繼續執行，但建議儘快編輯 SPEC.md
+[01:24:46] 使用緩存的技術棧: generic
+[01:24:46] 使用配置: generic
+[01:24:46] ✅ 日誌文件已初始化: /d/github/ai-project/ai-gen-project-test/projects/logs/my-project/20251130-012430.log
+[01:24:47] ℹ️  [INIT] 日誌文件: /d/github/ai-project/ai-gen-project-test/projects/logs/my-project/20251130-012430.log (Run ID: 20251130-012430)
+[2025-11-30 01:24:47] [INFO] [INIT] 日誌文件: /d/github/ai-project/ai-gen-project-test/projects/logs/my-project/20251130-012430.log (Run ID: 20251130-012430)
+日誌文件測試
+[01:24:47] ℹ️  [VERSION] 記錄版本信息: v3.0 (2025-01-27)
+[2025-11-30 01:24:47] [INFO] [VERSION] 記錄版本信息: v3.0 (2025-01-27)
+[01:24:47] 計算總 TODO 數...
+[01:24:47] 總 TODO 數: 15
+[01:24:47] 檢查當前進度...
+[01:24:48] 當前進度: 0/15
+[01:24:48] 🆕 全新項目：從 TODO 1 開始
+[01:24:48] 使用環境變數 OLLAMA_API_BASE: http://100.116.112.87:11434
+[01:24:48] 檢查 Ollama 服務...
+[01:24:48] Ollama 服務已運行: http://100.116.112.87:11434
+[01:24:48] 載入模型配置...
+[01:24:49] 使用模型: Fast=llama3.1:8b, Strong=llama3.1:70b
+[01:24:49] 檢查 Fast Model: llama3.1:8b...
+[01:24:49] 模型 llama3.1:8b 已就緒
+[01:24:49] 檢查 Strong Model: llama3.1:70b...
+[01:24:49] ⚠️  模型 llama3.1:70b 未找到，將使用 llama3.1:8b 代替 (不自動下載，避免在 LLM server 上安裝不需要的模型)
+[01:24:50] [PROGRESS] 發現 1 個測試文件
+[2025-11-30 01:24:50] [DEBUG] [PROGRESS] 發現 1 個測試文件
+[01:24:57] ℹ️  [PROGRESS] 進度檢測: 文件=0, 質量=1, 測試=0, 總計=1
+[2025-11-30 01:24:57] [INFO] [PROGRESS] 進度檢測: 文件=0, 質量=1, 測試=0, 總計=1
+[01:24:57] 第 1 輪 | 已完成 TODO 1/15
+[01:24:58] ℹ️  [MODEL] 任務複雜度中等 (5)，使用快模型: llama3.1:8b
+[2025-11-30 01:24:58] [INFO] [MODEL] 任務複雜度中等 (5)，使用快模型: llama3.1:8b
+[01:24:58] 執行 TODO 2 (使用模型: llama3.1:8b)...
+[01:24:58] ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+[01:24:58] 📋 使用現有的文件結構骨架（無法確定修改時間，假設較新）
+[32m[01:24:58] 📋 使用現有的文件結構骨架（無法確定修改時間，假設較新）[0m
+[01:24:59] 📋 已添加文件結構骨架到 Prompt（已強制根目錄規則，技術棧不支持 src/ 目錄）
+[01:24:59] ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+[01:24:59] 📋 執行 TODO 2
+[01:24:59] 🤖 使用模型: llama3.1:8b
+[01:24:59] 📊 錯誤率: 0
+[01:24:59] 📝 日誌文件: /d/github/ai-project/ai-gen-project-test/projects/logs/my-project/20251130-012430.log
+[01:24:59] ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+[01:24:59] ℹ️  [AIDER] 開始執行 TODO 2 (模型: llama3.1:8b, 錯誤率: 0)
+[2025-11-30 01:24:59] [INFO] [AIDER] 開始執行 TODO 2 (模型: llama3.1:8b, 錯誤率: 0)
+[01:24:59] [TIMING] TODO 2 開始時間: 2025-11-30 01:24:59
+[2025-11-30 01:24:59] [DEBUG] [TIMING] TODO 2 開始時間: 2025-11-30 01:24:59
+[01:24:59] 🔍 調試：run_aider 當前目錄: /d/github/ai-project/ai-gen-project-test/projects/my-project
+[01:25:00] 🔍 調試：項目目錄是 Git 倉庫: /d/github/ai-project/ai-gen-project-test/projects/my-project
+[01:25:00] 🔧 小模型優化：temperature=0.3, top_p=0.7, top_k=20, max_tokens=1536
+[01:25:00] 📄 已提取 SPEC.md（包含範例，約 166 行）
+[01:25:00] 🔧 Windows 環境檢測：設置 TERM=xterm-256color
+[01:25:00] 開始執行 Aider（這可能需要幾分鐘，請耐心等待）...
+[01:25:00] ℹ️  💡 提示：Aider 正在與 LLM 交互生成代碼，這可能需要 2-10 分鐘
+[01:25:00] 🔍 調試：執行命令: aider --model ollama/llama3.1:8b --yes-always --no-show-model-warnings --no-gitignore --message 🚨 FILE RULES: All files in root, NO src/ directory.
+
+文件結構：
+components/Header.tsx          # 全局導航欄                                              
+pages/index.tsx               # 首頁，包含 Hero + FeatureGrid                            
+utils/helpers.ts              # 工具函數                                                 
+components/Footer.tsx         # 页脚                                                     
+layouts/Layout.tsx            # 布局                                                     
+styles/global.css             # 全局樣式                                                 
+
+---
+You are continuing an existing 通用項目 project. Current progress: TODO 1-1 completed.
+
+MISSION: Continue implementing TODO 2 to TODO 15 according to SPEC.md.
+
+CRITICAL RULES:
+1. DO NOT recreate files that already exist
+2. DO NOT modify existing working code unless SPEC.md requires changes
+3. Continue from TODO 2 and proceed sequentially
+4. After EACH TODO: Run tests/build, fix errors, then continue
+5. Use the exact tech stack specified in SPEC.md
+6. Write clean, maintainable code
+7. Add error handling
+8. Follow SPEC.md requirements EXACTLY
+
+FILE LOCATION RULES:
+⚠️  所有檔案必須放在項目根目錄，不要創建 src/ 等子目錄。
+⚠️  配置文件（package.json, tsconfig.json 等）必須在項目根目錄。
+
+START: Begin with TODO 2. DO NOT recreate existing files. Follow the directory structure rules above.
+
+⚠️  增量開發模式：
+- 這是現有項目，已有代碼文件
+- 請在現有代碼基礎上添加新功能，不要覆蓋現有文件
+- 保持現有的代碼風格和結構
+- 如果文件已存在，請在合適位置添加新代碼，而不是替換整個文件
+- 遵循現有的命名規範和目錄結構
+
+⚠️ 重要注意事項（基於歷史錯誤分析）：
+- 遵循項目規範和代碼風格\n- 確保代碼可運行且無錯誤\n- 添加適當的錯誤處理\n
+請特別注意避免上述常見錯誤。 --map-tokens 2000 --message-file /tmp/tmp.d643mJdyaG
+[01:25:00] 使用小模型超時時間: 720秒 (12分鐘)
+[01:25:00] 🔍 調試：完整命令: aider --model ollama/llama3.1:8b --yes-always --no-show-model-warnings --no-gitignore --message 🚨 FILE RULES: All files in root, NO src/ directory.
+
+文件結構：
+components/Header.tsx          # 全局導航欄                                              
+pages/index.tsx               # 首頁，包含 Hero + FeatureGrid                            
+utils/helpers.ts              # 工具函數                                                 
+components/Footer.tsx         # 页脚                                                     
+layouts/Layout.tsx            # 布局                                                     
+styles/global.css             # 全局樣式                                                 
+
+---
+You are continuing an existing 通用項目 project. Current progress: TODO 1-1 completed.
+
+MISSION: Continue implementing TODO 2 to TODO 15 according to SPEC.md.
+
+CRITICAL RULES:
+1. DO NOT recreate files that already exist
+2. DO NOT modify existing working code unless SPEC.md requires changes
+3. Continue from TODO 2 and proceed sequentially
+4. After EACH TODO: Run tests/build, fix errors, then continue
+5. Use the exact tech stack specified in SPEC.md
+6. Write clean, maintainable code
+7. Add error handling
+8. Follow SPEC.md requirements EXACTLY
+
+FILE LOCATION RULES:
+⚠️  所有檔案必須放在項目根目錄，不要創建 src/ 等子目錄。
+⚠️  配置文件（package.json, tsconfig.json 等）必須在項目根目錄。
+
+START: Begin with TODO 2. DO NOT recreate existing files. Follow the directory structure rules above.
+
+⚠️  增量開發模式：
+- 這是現有項目，已有代碼文件
+- 請在現有代碼基礎上添加新功能，不要覆蓋現有文件
+- 保持現有的代碼風格和結構
+- 如果文件已存在，請在合適位置添加新代碼，而不是替換整個文件
+- 遵循現有的命名規範和目錄結構
+
+⚠️ 重要注意事項（基於歷史錯誤分析）：
+- 遵循項目規範和代碼風格\n- 確保代碼可運行且無錯誤\n- 添加適當的錯誤處理\n
+請特別注意避免上述常見錯誤。 --map-tokens 2000 --message-file /tmp/tmp.d643mJdyaG
+[01:25:01] 🔍 調試：命令參數數量: 12
+[01:25:01] 🔍 調試：當前工作目錄: /d/github/ai-project/ai-gen-project-test/projects/my-project
+[01:25:01] 🔍 調試：項目路徑: /d/github/ai-project/ai-gen-project-test/projects/my-project
+[01:25:32] ⏳ Aider 仍在執行中（已等待 30/720 秒）...
+[01:25:01] 🔍 調試：Aider 執行目錄: /d/github/ai-project/ai-gen-project-test/projects/my-project
+[01:25:01] 🔍 調試：項目路徑: /d/github/ai-project/ai-gen-project-test/projects/my-project
+[01:25:01] 🔍 調試：預期目錄: /d/github/ai-project/ai-gen-project-test/projects/my-project
+[01:25:01] ✅ 目錄驗證通過: /d/github/ai-project/ai-gen-project-test/projects/my-project
+[01:25:01] 🔍 項目目錄內容: total 170
+drwxr-xr-x 1 flame 197609      0 Nov 30 01:08 .
+drwxr-xr-x 1 flame 197609      0 Nov 29 13:44 ..
+-rw-r--r-- 1 flame 197609 123917 Nov 30 01:08 .aider.chat.history.md
+-rw-r--r-- 1 flame 197609  10575 Nov 30 01:03 .aider.input.history
+drwxr-xr-x 1 flame 197609      0 Nov 30 01:08 .aider.tags.cache.v4
+drwxr-xr-x 1 flame 197609      0 Nov 30 01:08 .git
+drwxr-xr-x 1 flame 197609      0 Nov 29 13:44 .jarviscoder
+-rw-r--r-- 1 flame 197609    570 Nov 30 01:24 .jarviscoder_analysis.txt
+-rw-r--r-- 1 flame 197609     36 Nov 29 13:45 .jarviscoder_cache
+Can't initialize prompt toolkit: Found xterm-256color, while expecting a Windows console. Maybe 
+try to run this program using "winpty" or run it in cmd.exe instead. Or otherwise, in case of 
+Cygwin, use the Python executable that is compiled for Cygwin.
+────────────────────────────────────────────────────────────────────────────────────────────────
+Aider v0.86.1
+Model: ollama/llama3.1:8b with whole edit format
+Git repo: .git with 25 files
+Repo-map: using 2000 tokens, auto refresh
+
+
+SPEC.md
+
+components\Footer.tsx
+
+components\Header.tsx
+Assistant:                                                                                      
+
+Ok, 我會按照 SPEC.md 的規範進行修改。                                                           
+
+首先，我們需要修改 components/Header.tsx 檔案。根據 SPEC.md，Header 組件應該包含全局導航欄。    
+
+components/Header.tsx                                                                           
+
+                                                                                                
+@@ -1,4 +1,5 @@                                                                                 
+ // entire file content ...                                                                     
+
+接下來，我們需要修改 pages/index.tsx 檔案。根據 SPEC.md，首頁應該包含 Hero 和 FeatureGrid。     
+
+pages/index.tsx                                                                                 
+
+                                                                                                
+// entire file content ...                                                                      
+                                                                                                
+import React from 'react';                                                                      
+                                                                                                
+import Header from '../components/Header';                                                      
+                                                                                                
+import Hero from '../components/Hero';                                                          
+                                                                                                
+import FeatureGrid from '../components/FeatureGrid';                                            
+                                                                                                
+                                                                                                
+                                                                                                
+const IndexPage = () => {                                                                       
+                                                                                                
+  return (                                                                                      
+                                                                                                
+    <div>                                                                                       
+                                                                                                
+      <Header />                                                                                
+                                                                                                
+      <Hero />                                                                                  
+                                                                                                
+      <FeatureGrid />                                                                           
+                                                                                                
+    </div>                                                                                      
+                                                                                                
+  );                                                                                            
+                                                                                                
+};                                                                                              
+                                                                                                
+                                                                                                
+                                                                                                
+export default IndexPage;                                                                       
+                                                                                                
+
+最後，我們需要修改 utils/helpers.ts 檔案。根據 SPEC.md，工具函數應該包含一些有用的功能。        
+
+utils/helpers.ts                                                                                
+
+                                                                                                
+// entire file content ...                                                                      
+                                                                                                
+import { useState, useEffect } from 'react';                                                    
+                                                                                                
+                                                                                                
+                                                                                                
+const useFetch = (url: string) => {                                                             
+                                                                                                
+  const [data, setData] = useState(null);                                                       
+                                                                                                
+  const [error, setError] = useState(null);                                                     
+                                                                                                
+                                                                                                
+                                                                                                
+  useEffect(() => {                                                                             
+                                                                                                
+    fetch(url)                                                                                  
+                                                                                                
+      .then(response => response.json())                                                        
+                                                                                                
+      .then(data => setData(data))                                                              
+                                                                                                
+      .catch(error => setError(error));                                                         
+                                                                                                
+  }, [url]);                                                                                    
+                                                                                                
+                                                                                                
+                                                                                                
+  return { data, error };                                                                       
+                                                                                                
+};                                                                                              
+                                                                                                
+                                                                                                
+                                                                                                
+export default useFetch;                                                                        
+                                                                                                
+
+以上就是我對 components/Header.tsx、pages/index.tsx 和 utils/helpers.ts 檔案的修改。            
+
+Tokens: 7.0k sent, 457 received.
+
+pages/index.tsx
+
+utils/helpers.ts
+Applied edit to pages/index.tsx
+Applied edit to components/Header.tsx
+Applied edit to utils/helpers.ts
+Commit 5ecdb28 feat: 添加 Hero 和 FeatureGrid 组件到首頁。
+[01:25:52] 🔍 調試：Aider 實際執行時間: 52秒
+[01:25:52] 🔍 調試：Aider 輸出日誌大小: 134 行
+[01:25:52] 🔍 調試：Aider 輸出最後 5 行:
+[01:25:53]    utils/helpers.ts
+[01:25:53]    Applied edit to pages/index.tsx
+[01:25:53]    Applied edit to components/Header.tsx
+[01:25:53]    Applied edit to utils/helpers.ts
+[01:25:53]    Commit 5ecdb28 feat: 添加 Hero 和 FeatureGrid 组件到首頁。
+[01:25:53] Aider 執行完成（退出碼: 0）
+[01:25:53] ✅ 代碼衝突檢測通過
+[01:25:53] ⚠️  檢測到錯誤，進入自動修復模式... (第 1 次嘗試，最多 1 次)
+[01:34:04] ⚠️  \n⚠️  檢測到中斷訊號 (Ctrl+C)，正在保存進度並清理...
+[2025-11-30 01:34:04] ⚠️  User interrupted execution (Ctrl+C)
+[01:34:04] 🔍 分析錯誤類型...
+[01:34:04] 錯誤分類: JSON=0, 依賴=0, 語法=0
+[01:34:04] 🧹 清理文件格式...
+[01:34:05] ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+[01:34:05] 🔍 開始執行完成後完整檢核驗證...
+[01:34:05] ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+[01:34:05] 📁 [1/8] 驗證文件位置...
+[01:34:05]   ✅ 文件位置正確（無 src/ 目錄）
+[01:34:05] 📄 [2/8] 驗證關鍵文件存在性...
+[01:34:05]   ✅ 所有關鍵文件存在
+[01:34:06] 🔤 [3/8] 驗證代碼語法...
+[01:34:06]   ✅ JavaScript 語法檢查通過
+[01:34:06] 📦 [4/8] 驗證依賴完整性...
+[01:34:06]   📥 檢測到 package.json 但 node_modules 不存在，自動安裝依賴...
+
+added 3 packages, and audited 4 packages in 6s
+
+found 0 vulnerabilities
+[01:34:12]   ✅ 依賴安裝成功
+[01:34:13] ⚠️  發現缺少的依賴，建議運行: npm install
+[01:34:13] 🏗️  [5/8] 驗證項目構建...
+[01:34:13]   ⚠️  未配置構建命令，跳過構建驗證
+[01:34:13] 🧪 [6/8] 驗證測試...
+[01:34:13]   發現 1 個測試文件，執行測試...
+npm ERR! Missing script: "test"
+npm ERR! 
+npm ERR! To see a list of scripts, run:
+npm ERR!   npm run
+
+npm ERR! A complete log of this run can be found in: C:\Users\flame\AppData\Local\npm-cache\_logs\2025-11-29T17_34_14_357Z-debug-0.log
+無測試
+[01:34:15]   ✅ 測試通過
+[01:34:15] 📊 [7/8] 執行代碼質量檢查...
+[01:34:15] ℹ️  [QUALITY] 執行最終代碼質量檢查...
+[2025-11-30 01:34:15] [INFO] [QUALITY] 執行最終代碼質量檢查...
+[01:34:15] ℹ️  [QUALITY] 代碼質量評分: 100/100
+[2025-11-30 01:34:15] [INFO] [QUALITY] 代碼質量評分: 100/100
+[01:34:16]   ✅ 代碼質量評分: 100/100
+[01:34:16] 📈 [8/8] 檢查測試覆蓋率...
+[01:34:16] ℹ️  [TEST] 執行最終測試覆蓋率檢查...
+[2025-11-30 01:34:16] [INFO] [TEST] 執行最終測試覆蓋率檢查...
+[01:34:16] ℹ️  [TEST] 測試覆蓋率: N/A (1 test files), 測試數量: 1, 通過: 0
+[2025-11-30 01:34:16] [INFO] [TEST] 測試覆蓋率: N/A (1 test files), 測試數量: 1, 通過: 0
+[01:34:16]   ✅ 測試覆蓋率: N/A (1 test files), 測試數量: 1, 通過: 0
+[01:34:16] ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+[01:34:16] ⚠️  ⚠️  完成後檢核驗證發現問題：
+[01:34:17] ⚠️    ❌ 缺少依賴: @types/node
+[01:34:17] ⚠️  [VERIFY] ❌ 缺少依賴: @types/node
+[2025-11-30 01:34:17] [WARN] [VERIFY] ❌ 缺少依賴: @types/node
+[01:34:17] ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+[01:34:17] ⚠️  [VERIFY] 完成後檢核驗證未完全通過，發現 1 個問題
+[2025-11-30 01:34:17] [WARN] [VERIFY] 完成後檢核驗證未完全通過，發現 1 個問題
+[01:34:17] ⚠️  💡 建議：修復上述問題後重新運行驗證
+[01:34:17] 📝 提交代碼...
+warning: in the working copy of '.aider.input.history', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of '.jarviscoder_analysis.txt', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'package.json', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'node_modules/.bin/tsc', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'node_modules/.bin/tsc.ps1', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'node_modules/.bin/tsserver', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'node_modules/.bin/tsserver.ps1', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'node_modules/.package-lock.json', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'node_modules/@types/node/LICENSE', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'node_modules/@types/node/assert.d.ts', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'node_modules/@types/node/assert/strict.d.ts', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'node_modules/@types/node/async_hooks.d.ts', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'node_modules/@types/node/buffer.buffer.d.ts', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'node_modules/@types/node/buffer.d.ts', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'node_modules/@types/node/child_process.d.ts', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'node_modules/@types/node/cluster.d.ts', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'node_modules/@types/node/compatibility/disposable.d.ts', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'node_modules/@types/node/compatibility/index.d.ts', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'node_modules/@types/node/compatibility/indexable.d.ts', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'node_modules/@types/node/compatibility/iterators.d.ts', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'node_modules/@types/node/console.d.ts', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'node_modules/@types/node/constants.d.ts', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'node_modules/@types/node/crypto.d.ts', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'node_modules/@types/node/dgram.d.ts', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'node_modules/@types/node/diagnostics_channel.d.ts', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'node_modules/@types/node/dns.d.ts', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'node_modules/@types/node/dns/promises.d.ts', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'node_modules/@types/node/domain.d.ts', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'node_modules/@types/node/events.d.ts', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'node_modules/@types/node/fs.d.ts', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'node_modules/@types/node/fs/promises.d.ts', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'node_modules/@types/node/globals.d.ts', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'node_modules/@types/node/globals.typedarray.d.ts', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'node_modules/@types/node/http.d.ts', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'node_modules/@types/node/http2.d.ts', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'node_modules/@types/node/https.d.ts', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'node_modules/@types/node/index.d.ts', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'node_modules/@types/node/inspector.generated.d.ts', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'node_modules/@types/node/module.d.ts', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'node_modules/@types/node/net.d.ts', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'node_modules/@types/node/os.d.ts', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'node_modules/@types/node/package.json', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'node_modules/@types/node/path.d.ts', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'node_modules/@types/node/perf_hooks.d.ts', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'node_modules/@types/node/process.d.ts', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'node_modules/@types/node/punycode.d.ts', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'node_modules/@types/node/querystring.d.ts', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'node_modules/@types/node/readline.d.ts', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'node_modules/@types/node/readline/promises.d.ts', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'node_modules/@types/node/repl.d.ts', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'node_modules/@types/node/stream.d.ts', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'node_modules/@types/node/stream/consumers.d.ts', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'node_modules/@types/node/stream/promises.d.ts', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'node_modules/@types/node/stream/web.d.ts', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'node_modules/@types/node/string_decoder.d.ts', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'node_modules/@types/node/test.d.ts', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'node_modules/@types/node/timers.d.ts', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'node_modules/@types/node/timers/promises.d.ts', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'node_modules/@types/node/tls.d.ts', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'node_modules/@types/node/trace_events.d.ts', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'node_modules/@types/node/ts5.6/buffer.buffer.d.ts', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'node_modules/@types/node/ts5.6/globals.typedarray.d.ts', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'node_modules/@types/node/ts5.6/index.d.ts', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'node_modules/@types/node/tty.d.ts', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'node_modules/@types/node/url.d.ts', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'node_modules/@types/node/util.d.ts', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'node_modules/@types/node/v8.d.ts', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'node_modules/@types/node/vm.d.ts', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'node_modules/@types/node/wasi.d.ts', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'node_modules/@types/node/web-globals/abortcontroller.d.ts', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'node_modules/@types/node/web-globals/domexception.d.ts', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'node_modules/@types/node/web-globals/events.d.ts', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'node_modules/@types/node/web-globals/fetch.d.ts', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'node_modules/@types/node/worker_threads.d.ts', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'node_modules/@types/node/zlib.d.ts', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'node_modules/typescript/SECURITY.md', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'node_modules/typescript/bin/tsc', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'node_modules/typescript/bin/tsserver', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'node_modules/typescript/lib/README.md', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'node_modules/typescript/lib/cancellationToken.js', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'node_modules/typescript/lib/cs/diagnosticMessages.generated.json', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'node_modules/typescript/lib/de/diagnosticMessages.generated.json', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'node_modules/typescript/lib/dynamicImportCompat.js', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'node_modules/typescript/lib/es/diagnosticMessages.generated.json', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'node_modules/typescript/lib/fr/diagnosticMessages.generated.json', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'node_modules/typescript/lib/it/diagnosticMessages.generated.json', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'node_modules/typescript/lib/ja/diagnosticMessages.generated.json', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'node_modules/typescript/lib/ko/diagnosticMessages.generated.json', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'node_modules/typescript/lib/lib.d.ts', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'node_modules/typescript/lib/lib.dom.d.ts', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'node_modules/typescript/lib/lib.dom.iterable.d.ts', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'node_modules/typescript/lib/lib.es2015.collection.d.ts', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'node_modules/typescript/lib/lib.es2015.core.d.ts', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'node_modules/typescript/lib/lib.es2015.d.ts', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'node_modules/typescript/lib/lib.es2015.generator.d.ts', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'node_modules/typescript/lib/lib.es2015.iterable.d.ts', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'node_modules/typescript/lib/lib.es2015.promise.d.ts', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'node_modules/typescript/lib/lib.es2015.proxy.d.ts', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'node_modules/typescript/lib/lib.es2015.reflect.d.ts', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'node_modules/typescript/lib/lib.es2015.symbol.d.ts', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'node_modules/typescript/lib/lib.es2015.symbol.wellknown.d.ts', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'node_modules/typescript/lib/lib.es2016.array.include.d.ts', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'node_modules/typescript/lib/lib.es2016.d.ts', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'node_modules/typescript/lib/lib.es2016.full.d.ts', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'node_modules/typescript/lib/lib.es2017.d.ts', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'node_modules/typescript/lib/lib.es2017.full.d.ts', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'node_modules/typescript/lib/lib.es2017.intl.d.ts', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'node_modules/typescript/lib/lib.es2017.object.d.ts', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'node_modules/typescript/lib/lib.es2017.sharedmemory.d.ts', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'node_modules/typescript/lib/lib.es2017.string.d.ts', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'node_modules/typescript/lib/lib.es2017.typedarrays.d.ts', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'node_modules/typescript/lib/lib.es2018.asyncgenerator.d.ts', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'node_modules/typescript/lib/lib.es2018.asynciterable.d.ts', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'node_modules/typescript/lib/lib.es2018.d.ts', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'node_modules/typescript/lib/lib.es2018.full.d.ts', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'node_modules/typescript/lib/lib.es2018.intl.d.ts', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'node_modules/typescript/lib/lib.es2018.promise.d.ts', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'node_modules/typescript/lib/lib.es2018.regexp.d.ts', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'node_modules/typescript/lib/lib.es2019.array.d.ts', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'node_modules/typescript/lib/lib.es2019.d.ts', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'node_modules/typescript/lib/lib.es2019.full.d.ts', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'node_modules/typescript/lib/lib.es2019.intl.d.ts', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'node_modules/typescript/lib/lib.es2019.object.d.ts', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'node_modules/typescript/lib/lib.es2019.string.d.ts', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'node_modules/typescript/lib/lib.es2019.symbol.d.ts', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'node_modules/typescript/lib/lib.es2020.bigint.d.ts', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'node_modules/typescript/lib/lib.es2020.d.ts', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'node_modules/typescript/lib/lib.es2020.date.d.ts', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'node_modules/typescript/lib/lib.es2020.full.d.ts', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'node_modules/typescript/lib/lib.es2020.intl.d.ts', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'node_modules/typescript/lib/lib.es2020.number.d.ts', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'node_modules/typescript/lib/lib.es2020.promise.d.ts', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'node_modules/typescript/lib/lib.es2020.sharedmemory.d.ts', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'node_modules/typescript/lib/lib.es2020.string.d.ts', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'node_modules/typescript/lib/lib.es2020.symbol.wellknown.d.ts', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'node_modules/typescript/lib/lib.es2021.d.ts', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'node_modules/typescript/lib/lib.es2021.full.d.ts', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'node_modules/typescript/lib/lib.es2021.intl.d.ts', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'node_modules/typescript/lib/lib.es2021.promise.d.ts', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'node_modules/typescript/lib/lib.es2021.string.d.ts', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'node_modules/typescript/lib/lib.es2021.weakref.d.ts', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'node_modules/typescript/lib/lib.es2022.array.d.ts', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'node_modules/typescript/lib/lib.es2022.d.ts', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'node_modules/typescript/lib/lib.es2022.error.d.ts', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'node_modules/typescript/lib/lib.es2022.full.d.ts', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'node_modules/typescript/lib/lib.es2022.intl.d.ts', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'node_modules/typescript/lib/lib.es2022.object.d.ts', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'node_modules/typescript/lib/lib.es2022.sharedmemory.d.ts', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'node_modules/typescript/lib/lib.es2022.string.d.ts', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'node_modules/typescript/lib/lib.es5.d.ts', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'node_modules/typescript/lib/lib.es6.d.ts', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'node_modules/typescript/lib/lib.esnext.d.ts', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'node_modules/typescript/lib/lib.esnext.full.d.ts', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'node_modules/typescript/lib/lib.esnext.intl.d.ts', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'node_modules/typescript/lib/lib.esnext.promise.d.ts', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'node_modules/typescript/lib/lib.esnext.string.d.ts', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'node_modules/typescript/lib/lib.esnext.weakref.d.ts', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'node_modules/typescript/lib/lib.scripthost.d.ts', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'node_modules/typescript/lib/lib.webworker.d.ts', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'node_modules/typescript/lib/lib.webworker.importscripts.d.ts', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'node_modules/typescript/lib/lib.webworker.iterable.d.ts', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'node_modules/typescript/lib/pl/diagnosticMessages.generated.json', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'node_modules/typescript/lib/protocol.d.ts', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'node_modules/typescript/lib/pt-br/diagnosticMessages.generated.json', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'node_modules/typescript/lib/ru/diagnosticMessages.generated.json', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'node_modules/typescript/lib/tr/diagnosticMessages.generated.json', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'node_modules/typescript/lib/tsc.js', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'node_modules/typescript/lib/tsserver.js', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'node_modules/typescript/lib/tsserverlibrary.d.ts', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'node_modules/typescript/lib/tsserverlibrary.js', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'node_modules/typescript/lib/typescript.d.ts', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'node_modules/typescript/lib/typescript.js', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'node_modules/typescript/lib/typescriptServices.d.ts', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'node_modules/typescript/lib/typescriptServices.js', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'node_modules/typescript/lib/typingsInstaller.js', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'node_modules/typescript/lib/watchGuard.js', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'node_modules/typescript/lib/zh-cn/diagnosticMessages.generated.json', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'node_modules/typescript/lib/zh-tw/diagnosticMessages.generated.json', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'node_modules/typescript/package.json', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'node_modules/undici-types/README.md', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'node_modules/undici-types/agent.d.ts', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'node_modules/undici-types/api.d.ts', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'node_modules/undici-types/balanced-pool.d.ts', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'node_modules/undici-types/cache.d.ts', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'node_modules/undici-types/client.d.ts', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'node_modules/undici-types/connector.d.ts', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'node_modules/undici-types/content-type.d.ts', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'node_modules/undici-types/cookies.d.ts', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'node_modules/undici-types/diagnostics-channel.d.ts', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'node_modules/undici-types/dispatcher.d.ts', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'node_modules/undici-types/errors.d.ts', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'node_modules/undici-types/fetch.d.ts', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'node_modules/undici-types/file.d.ts', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'node_modules/undici-types/filereader.d.ts', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'node_modules/undici-types/formdata.d.ts', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'node_modules/undici-types/global-dispatcher.d.ts', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'node_modules/undici-types/global-origin.d.ts', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'node_modules/undici-types/handlers.d.ts', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'node_modules/undici-types/header.d.ts', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'node_modules/undici-types/index.d.ts', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'node_modules/undici-types/interceptors.d.ts', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'node_modules/undici-types/mock-agent.d.ts', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'node_modules/undici-types/mock-client.d.ts', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'node_modules/undici-types/mock-errors.d.ts', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'node_modules/undici-types/mock-interceptor.d.ts', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'node_modules/undici-types/mock-pool.d.ts', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'node_modules/undici-types/package.json', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'node_modules/undici-types/patch.d.ts', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'node_modules/undici-types/pool-stats.d.ts', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'node_modules/undici-types/pool.d.ts', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'node_modules/undici-types/proxy-agent.d.ts', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'node_modules/undici-types/readable.d.ts', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'node_modules/undici-types/webidl.d.ts', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'node_modules/undici-types/websocket.d.ts', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'package-lock.json', LF will be replaced by CRLF the next time Git touches it
+[master 85ce9be] feat: JarvisCoder v2.0 自動開發完成 - 2025-11-30 01:34:18
+ 226 files changed, 1101160 insertions(+), 3 deletions(-)
+ delete mode 100644 .aider.tags.cache.v4/cache.db-shm
+ delete mode 100644 .aider.tags.cache.v4/cache.db-wal
+ create mode 100644 node_modules/.bin/tsc
+ create mode 100644 node_modules/.bin/tsc.cmd
+ create mode 100644 node_modules/.bin/tsc.ps1
+ create mode 100644 node_modules/.bin/tsserver
+ create mode 100644 node_modules/.bin/tsserver.cmd
+ create mode 100644 node_modules/.bin/tsserver.ps1
+ create mode 100644 node_modules/.package-lock.json
+ create mode 100644 node_modules/@types/node/LICENSE
+ create mode 100644 node_modules/@types/node/README.md
+ create mode 100644 node_modules/@types/node/assert.d.ts
+ create mode 100644 node_modules/@types/node/assert/strict.d.ts
+ create mode 100644 node_modules/@types/node/async_hooks.d.ts
+ create mode 100644 node_modules/@types/node/buffer.buffer.d.ts
+ create mode 100644 node_modules/@types/node/buffer.d.ts
+ create mode 100644 node_modules/@types/node/child_process.d.ts
+ create mode 100644 node_modules/@types/node/cluster.d.ts
+ create mode 100644 node_modules/@types/node/compatibility/disposable.d.ts
+ create mode 100644 node_modules/@types/node/compatibility/index.d.ts
+ create mode 100644 node_modules/@types/node/compatibility/indexable.d.ts
+ create mode 100644 node_modules/@types/node/compatibility/iterators.d.ts
+ create mode 100644 node_modules/@types/node/console.d.ts
+ create mode 100644 node_modules/@types/node/constants.d.ts
+ create mode 100644 node_modules/@types/node/crypto.d.ts
+ create mode 100644 node_modules/@types/node/dgram.d.ts
+ create mode 100644 node_modules/@types/node/diagnostics_channel.d.ts
+ create mode 100644 node_modules/@types/node/dns.d.ts
+ create mode 100644 node_modules/@types/node/dns/promises.d.ts
+ create mode 100644 node_modules/@types/node/domain.d.ts
+ create mode 100644 node_modules/@types/node/events.d.ts
+ create mode 100644 node_modules/@types/node/fs.d.ts
+ create mode 100644 node_modules/@types/node/fs/promises.d.ts
+ create mode 100644 node_modules/@types/node/globals.d.ts
+ create mode 100644 node_modules/@types/node/globals.typedarray.d.ts
+ create mode 100644 node_modules/@types/node/http.d.ts
+ create mode 100644 node_modules/@types/node/http2.d.ts
+ create mode 100644 node_modules/@types/node/https.d.ts
+ create mode 100644 node_modules/@types/node/index.d.ts
+ create mode 100644 node_modules/@types/node/inspector.generated.d.ts
+ create mode 100644 node_modules/@types/node/module.d.ts
+ create mode 100644 node_modules/@types/node/net.d.ts
+ create mode 100644 node_modules/@types/node/os.d.ts
+ create mode 100644 node_modules/@types/node/package.json
+ create mode 100644 node_modules/@types/node/path.d.ts
+ create mode 100644 node_modules/@types/node/perf_hooks.d.ts
+ create mode 100644 node_modules/@types/node/process.d.ts
+ create mode 100644 node_modules/@types/node/punycode.d.ts
+ create mode 100644 node_modules/@types/node/querystring.d.ts
+ create mode 100644 node_modules/@types/node/readline.d.ts
+ create mode 100644 node_modules/@types/node/readline/promises.d.ts
+ create mode 100644 node_modules/@types/node/repl.d.ts
+ create mode 100644 node_modules/@types/node/stream.d.ts
+ create mode 100644 node_modules/@types/node/stream/consumers.d.ts
+ create mode 100644 node_modules/@types/node/stream/promises.d.ts
+ create mode 100644 node_modules/@types/node/stream/web.d.ts
+ create mode 100644 node_modules/@types/node/string_decoder.d.ts
+ create mode 100644 node_modules/@types/node/test.d.ts
+ create mode 100644 node_modules/@types/node/timers.d.ts
+ create mode 100644 node_modules/@types/node/timers/promises.d.ts
+ create mode 100644 node_modules/@types/node/tls.d.ts
+ create mode 100644 node_modules/@types/node/trace_events.d.ts
+ create mode 100644 node_modules/@types/node/ts5.6/buffer.buffer.d.ts
+ create mode 100644 node_modules/@types/node/ts5.6/globals.typedarray.d.ts
+ create mode 100644 node_modules/@types/node/ts5.6/index.d.ts
+ create mode 100644 node_modules/@types/node/tty.d.ts
+ create mode 100644 node_modules/@types/node/url.d.ts
+ create mode 100644 node_modules/@types/node/util.d.ts
+ create mode 100644 node_modules/@types/node/v8.d.ts
+ create mode 100644 node_modules/@types/node/vm.d.ts
+ create mode 100644 node_modules/@types/node/wasi.d.ts
+ create mode 100644 node_modules/@types/node/web-globals/abortcontroller.d.ts
+ create mode 100644 node_modules/@types/node/web-globals/domexception.d.ts
+ create mode 100644 node_modules/@types/node/web-globals/events.d.ts
+ create mode 100644 node_modules/@types/node/web-globals/fetch.d.ts
+ create mode 100644 node_modules/@types/node/worker_threads.d.ts
+ create mode 100644 node_modules/@types/node/zlib.d.ts
+ create mode 100644 node_modules/typescript/LICENSE.txt
+ create mode 100644 node_modules/typescript/README.md
+ create mode 100644 node_modules/typescript/SECURITY.md
+ create mode 100644 node_modules/typescript/ThirdPartyNoticeText.txt
+ create mode 100644 node_modules/typescript/bin/tsc
+ create mode 100644 node_modules/typescript/bin/tsserver
+ create mode 100644 node_modules/typescript/lib/README.md
+ create mode 100644 node_modules/typescript/lib/cancellationToken.js
+ create mode 100644 node_modules/typescript/lib/cs/diagnosticMessages.generated.json
+ create mode 100644 node_modules/typescript/lib/de/diagnosticMessages.generated.json
+ create mode 100644 node_modules/typescript/lib/dynamicImportCompat.js
+ create mode 100644 node_modules/typescript/lib/es/diagnosticMessages.generated.json
+ create mode 100644 node_modules/typescript/lib/fr/diagnosticMessages.generated.json
+ create mode 100644 node_modules/typescript/lib/it/diagnosticMessages.generated.json
+ create mode 100644 node_modules/typescript/lib/ja/diagnosticMessages.generated.json
+ create mode 100644 node_modules/typescript/lib/ko/diagnosticMessages.generated.json
+ create mode 100644 node_modules/typescript/lib/lib.d.ts
+ create mode 100644 node_modules/typescript/lib/lib.dom.d.ts
+ create mode 100644 node_modules/typescript/lib/lib.dom.iterable.d.ts
+ create mode 100644 node_modules/typescript/lib/lib.es2015.collection.d.ts
+ create mode 100644 node_modules/typescript/lib/lib.es2015.core.d.ts
+ create mode 100644 node_modules/typescript/lib/lib.es2015.d.ts
+ create mode 100644 node_modules/typescript/lib/lib.es2015.generator.d.ts
+ create mode 100644 node_modules/typescript/lib/lib.es2015.iterable.d.ts
+ create mode 100644 node_modules/typescript/lib/lib.es2015.promise.d.ts
+ create mode 100644 node_modules/typescript/lib/lib.es2015.proxy.d.ts
+ create mode 100644 node_modules/typescript/lib/lib.es2015.reflect.d.ts
+ create mode 100644 node_modules/typescript/lib/lib.es2015.symbol.d.ts
+ create mode 100644 node_modules/typescript/lib/lib.es2015.symbol.wellknown.d.ts
+ create mode 100644 node_modules/typescript/lib/lib.es2016.array.include.d.ts
+ create mode 100644 node_modules/typescript/lib/lib.es2016.d.ts
+ create mode 100644 node_modules/typescript/lib/lib.es2016.full.d.ts
+ create mode 100644 node_modules/typescript/lib/lib.es2017.d.ts
+ create mode 100644 node_modules/typescript/lib/lib.es2017.full.d.ts
+ create mode 100644 node_modules/typescript/lib/lib.es2017.intl.d.ts
+ create mode 100644 node_modules/typescript/lib/lib.es2017.object.d.ts
+ create mode 100644 node_modules/typescript/lib/lib.es2017.sharedmemory.d.ts
+ create mode 100644 node_modules/typescript/lib/lib.es2017.string.d.ts
+ create mode 100644 node_modules/typescript/lib/lib.es2017.typedarrays.d.ts
+ create mode 100644 node_modules/typescript/lib/lib.es2018.asyncgenerator.d.ts
+ create mode 100644 node_modules/typescript/lib/lib.es2018.asynciterable.d.ts
+ create mode 100644 node_modules/typescript/lib/lib.es2018.d.ts
+ create mode 100644 node_modules/typescript/lib/lib.es2018.full.d.ts
+ create mode 100644 node_modules/typescript/lib/lib.es2018.intl.d.ts
+ create mode 100644 node_modules/typescript/lib/lib.es2018.promise.d.ts
+ create mode 100644 node_modules/typescript/lib/lib.es2018.regexp.d.ts
+ create mode 100644 node_modules/typescript/lib/lib.es2019.array.d.ts
+ create mode 100644 node_modules/typescript/lib/lib.es2019.d.ts
+ create mode 100644 node_modules/typescript/lib/lib.es2019.full.d.ts
+ create mode 100644 node_modules/typescript/lib/lib.es2019.intl.d.ts
+ create mode 100644 node_modules/typescript/lib/lib.es2019.object.d.ts
+ create mode 100644 node_modules/typescript/lib/lib.es2019.string.d.ts
+ create mode 100644 node_modules/typescript/lib/lib.es2019.symbol.d.ts
+ create mode 100644 node_modules/typescript/lib/lib.es2020.bigint.d.ts
+ create mode 100644 node_modules/typescript/lib/lib.es2020.d.ts
+ create mode 100644 node_modules/typescript/lib/lib.es2020.date.d.ts
+ create mode 100644 node_modules/typescript/lib/lib.es2020.full.d.ts
+ create mode 100644 node_modules/typescript/lib/lib.es2020.intl.d.ts
+ create mode 100644 node_modules/typescript/lib/lib.es2020.number.d.ts
+ create mode 100644 node_modules/typescript/lib/lib.es2020.promise.d.ts
+ create mode 100644 node_modules/typescript/lib/lib.es2020.sharedmemory.d.ts
+ create mode 100644 node_modules/typescript/lib/lib.es2020.string.d.ts
+ create mode 100644 node_modules/typescript/lib/lib.es2020.symbol.wellknown.d.ts
+ create mode 100644 node_modules/typescript/lib/lib.es2021.d.ts
+ create mode 100644 node_modules/typescript/lib/lib.es2021.full.d.ts
+ create mode 100644 node_modules/typescript/lib/lib.es2021.intl.d.ts
+ create mode 100644 node_modules/typescript/lib/lib.es2021.promise.d.ts
+ create mode 100644 node_modules/typescript/lib/lib.es2021.string.d.ts
+ create mode 100644 node_modules/typescript/lib/lib.es2021.weakref.d.ts
+ create mode 100644 node_modules/typescript/lib/lib.es2022.array.d.ts
+ create mode 100644 node_modules/typescript/lib/lib.es2022.d.ts
+ create mode 100644 node_modules/typescript/lib/lib.es2022.error.d.ts
+ create mode 100644 node_modules/typescript/lib/lib.es2022.full.d.ts
+ create mode 100644 node_modules/typescript/lib/lib.es2022.intl.d.ts
+ create mode 100644 node_modules/typescript/lib/lib.es2022.object.d.ts
+ create mode 100644 node_modules/typescript/lib/lib.es2022.sharedmemory.d.ts
+ create mode 100644 node_modules/typescript/lib/lib.es2022.string.d.ts
+ create mode 100644 node_modules/typescript/lib/lib.es5.d.ts
+ create mode 100644 node_modules/typescript/lib/lib.es6.d.ts
+ create mode 100644 node_modules/typescript/lib/lib.esnext.d.ts
+ create mode 100644 node_modules/typescript/lib/lib.esnext.full.d.ts
+ create mode 100644 node_modules/typescript/lib/lib.esnext.intl.d.ts
+ create mode 100644 node_modules/typescript/lib/lib.esnext.promise.d.ts
+ create mode 100644 node_modules/typescript/lib/lib.esnext.string.d.ts
+ create mode 100644 node_modules/typescript/lib/lib.esnext.weakref.d.ts
+ create mode 100644 node_modules/typescript/lib/lib.scripthost.d.ts
+ create mode 100644 node_modules/typescript/lib/lib.webworker.d.ts
+ create mode 100644 node_modules/typescript/lib/lib.webworker.importscripts.d.ts
+ create mode 100644 node_modules/typescript/lib/lib.webworker.iterable.d.ts
+ create mode 100644 node_modules/typescript/lib/pl/diagnosticMessages.generated.json
+ create mode 100644 node_modules/typescript/lib/protocol.d.ts
+ create mode 100644 node_modules/typescript/lib/pt-br/diagnosticMessages.generated.json
+ create mode 100644 node_modules/typescript/lib/ru/diagnosticMessages.generated.json
+ create mode 100644 node_modules/typescript/lib/tr/diagnosticMessages.generated.json
+ create mode 100644 node_modules/typescript/lib/tsc.js
+ create mode 100644 node_modules/typescript/lib/tsserver.js
+ create mode 100644 node_modules/typescript/lib/tsserverlibrary.d.ts
+ create mode 100644 node_modules/typescript/lib/tsserverlibrary.js
+ create mode 100644 node_modules/typescript/lib/typesMap.json
+ create mode 100644 node_modules/typescript/lib/typescript.d.ts
+ create mode 100644 node_modules/typescript/lib/typescript.js
+ create mode 100644 node_modules/typescript/lib/typescriptServices.d.ts
+ create mode 100644 node_modules/typescript/lib/typescriptServices.js
+ create mode 100644 node_modules/typescript/lib/typingsInstaller.js
+ create mode 100644 node_modules/typescript/lib/watchGuard.js
+ create mode 100644 node_modules/typescript/lib/zh-cn/diagnosticMessages.generated.json
+ create mode 100644 node_modules/typescript/lib/zh-tw/diagnosticMessages.generated.json
+ create mode 100644 node_modules/typescript/package.json
+ create mode 100644 node_modules/undici-types/README.md
+ create mode 100644 node_modules/undici-types/agent.d.ts
+ create mode 100644 node_modules/undici-types/api.d.ts
+ create mode 100644 node_modules/undici-types/balanced-pool.d.ts
+ create mode 100644 node_modules/undici-types/cache.d.ts
+ create mode 100644 node_modules/undici-types/client.d.ts
+ create mode 100644 node_modules/undici-types/connector.d.ts
+ create mode 100644 node_modules/undici-types/content-type.d.ts
+ create mode 100644 node_modules/undici-types/cookies.d.ts
+ create mode 100644 node_modules/undici-types/diagnostics-channel.d.ts
+ create mode 100644 node_modules/undici-types/dispatcher.d.ts
+ create mode 100644 node_modules/undici-types/errors.d.ts
+ create mode 100644 node_modules/undici-types/fetch.d.ts
+ create mode 100644 node_modules/undici-types/file.d.ts
+ create mode 100644 node_modules/undici-types/filereader.d.ts
+ create mode 100644 node_modules/undici-types/formdata.d.ts
+ create mode 100644 node_modules/undici-types/global-dispatcher.d.ts
+ create mode 100644 node_modules/undici-types/global-origin.d.ts
+ create mode 100644 node_modules/undici-types/handlers.d.ts
+ create mode 100644 node_modules/undici-types/header.d.ts
+ create mode 100644 node_modules/undici-types/index.d.ts
+ create mode 100644 node_modules/undici-types/interceptors.d.ts
+ create mode 100644 node_modules/undici-types/mock-agent.d.ts
+ create mode 100644 node_modules/undici-types/mock-client.d.ts
+ create mode 100644 node_modules/undici-types/mock-errors.d.ts
+ create mode 100644 node_modules/undici-types/mock-interceptor.d.ts
+ create mode 100644 node_modules/undici-types/mock-pool.d.ts
+ create mode 100644 node_modules/undici-types/package.json
+ create mode 100644 node_modules/undici-types/patch.d.ts
+ create mode 100644 node_modules/undici-types/pool-stats.d.ts
+ create mode 100644 node_modules/undici-types/pool.d.ts
+ create mode 100644 node_modules/undici-types/proxy-agent.d.ts
+ create mode 100644 node_modules/undici-types/readable.d.ts
+ create mode 100644 node_modules/undici-types/webidl.d.ts
+ create mode 100644 node_modules/undici-types/websocket.d.ts
+ create mode 100644 package-lock.json
+[01:34:19] ✅ 開發完成！
+[01:34:19] ℹ️  📁 項目位置: /d/github/ai-project/ai-gen-project-test/projects/my-project
+[01:34:19] ℹ️  📋 日誌文件: /d/github/ai-project/ai-gen-project-test/projects/logs/my-project/20251130-012430.log
+[01:34:19] 🧬 執行進化分析...
+[01:34:20] 🤖 AI 分析日誌中...
+[01:34:20] ⏱️  AI 分析超時設置：30 秒（縮短以避免卡住）
+[01:34:30] ✅ AI 分析完成
+[01:34:30] ✅ 進化分析完成
